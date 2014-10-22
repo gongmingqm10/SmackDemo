@@ -148,4 +148,15 @@ public class MainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        try {
+            XMPPManager.getInstance().connection.disconnect();
+        } catch (SmackException.NotConnectedException e) {
+            e.printStackTrace();
+        }
+    }
 }
