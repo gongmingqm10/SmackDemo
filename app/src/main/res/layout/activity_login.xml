@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/username"
+        android:layout_gravity="center_vertical"
+        android:hint="Input your username"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/password"
+        android:layout_gravity="center_vertical"
+        android:password="true"
+        android:hint="Input your password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/friend"
+        android:layout_gravity="center_vertical"
+        android:hint="Enter the friend you want to chat with"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:text="Login"
+        android:id="@+id/loginBtn"
+        android:layout_gravity="center" />
+</LinearLayout>
