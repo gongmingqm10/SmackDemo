@@ -23,5 +23,7 @@ Please config the folowing parameters with your own Openfire server address and 
 
 ###About me
 I am a Android developer works at ThoughtWorks Inc.
+
 Personal blog: [http://www.gongmingqm10.net/](http://www.gongmingqm10.net/).
+
 Any problem, don't hesitate to make a pull request.
